@@ -2,8 +2,8 @@
 
 ## Student Details
 
-- **Full Name:** `<Joshua Okhifoh>`
-- **CCID:** `<jfokhifo>`
+- **Full Name:** `Joshua Okhifoh`
+- **CCID:** `jfokhifo`
 
 ## References and Resources
 
