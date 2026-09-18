@@ -43,7 +43,6 @@ fun CityListScreen(
     var showAddCityFields by remember { mutableStateOf(false) }
     var selectedCity by remember { mutableStateOf<City?>(null) }
 
-
     Column(modifier = modifier.fillMaxSize()) {
         Row(
             modifier = Modifier
@@ -94,7 +93,6 @@ fun CityListScreen(
                     modifier = Modifier.weight(1f)
                 )
                 Spacer(modifier = Modifier.width(8.dp))
-
                 Button(
                     modifier = Modifier.padding(vertical = 12.dp),
                     onClick = {
@@ -115,10 +113,6 @@ fun CityListScreen(
                 }
             }
         }
-
-
-
-
         if (selectedCity != null && !showAddCityFields) {
             Row(
                 modifier = Modifier
@@ -161,12 +155,6 @@ fun CityListScreen(
                 }
             }
         }
-
-
-
-
-
-
         LazyColumn(modifier = modifier.fillMaxSize()) {
             itemsIndexed(cities) { index, city ->
                 CityRow(city = city,
